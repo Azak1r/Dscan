@@ -3,12 +3,12 @@
 namespace Azak1r\Dscan;
 
 use Illuminate\Http\Request;
-use Leviathan\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 
 class DscanController extends Controller
 {
     public function index()
     {
-    	echo "Werkt";
+    	return view('dscan::index');
     }
 }

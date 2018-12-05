@@ -13,7 +13,7 @@ class DscanServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadViewsFrom(__DIR__. '/views', 'dscan');
     }
 
     /**
