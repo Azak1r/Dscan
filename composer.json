@@ -1,0 +1,24 @@
+{
+    "name": "Azak1r/Dscan",
+    "description": "A directional scan (Dscan) result sharing tool for EVE Online. This tool is part of the Leviathan Suite",
+    "authors": [
+        {
+            "name": "Joery Pigmans",
+            "email": "dj-joer@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azak1r\\Dscan\\DscanServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Azak1r\\Dscan\\": "src/"
+        }
+    }
+}
