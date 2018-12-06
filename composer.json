@@ -1,6 +1,8 @@
 {
     "name": "Azak1r/Dscan",
     "description": "A directional scan (Dscan) result sharing tool for EVE Online. This tool is part of the Leviathan Suite",
+    "keywords": ["laravel", "Leviathan", "EVE Online", "Dscan"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Joery Pigmans",
@@ -8,6 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "illuminate/contracts": "5.8.*",
+        "illuminate/support": "5.8.*"
+    },
     "extra": {
         "laravel": {
             "providers": [

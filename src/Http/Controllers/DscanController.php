@@ -1,14 +1,14 @@
 <?php
 
-namespace Azak1r\Dscan;
+namespace Azak1r\Dscan\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
 class DscanController extends Controller
 {
-    public function index()
+    public function newScan()
     {
-    	return view('dscan::index');
+    	return view('Dscan::newScan');
     }
 }
