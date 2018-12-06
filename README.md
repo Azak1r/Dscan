@@ -1,6 +1,10 @@
 # Dscan
 EVE Online D-Scan Parser for sharing to the correct intel channels. This package is made for the Leviathan suite.
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Azak1r/Dscan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Azak1r/Dscan/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Azak1r/Dscan/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Azak1r/Dscan/build-status/master)
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
+
 ## How to install
 
 Start by grabbing the package using composer (Needs to be added to packagist first TBD)
