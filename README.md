@@ -23,7 +23,7 @@ php artisan vendor:publish --tag=migrations // This moves the Migration files to
 php artisan vendor:publish --tag=seeds // This moves the Seeder files to the main App
 
 php artisan migrate // This will create the needed tables for the tool
-php artisan db:seed // This will prefil the database tables with the needed data to function
+php artisan db:seed --class=DScanDataSeeder // This will prefil the database tables with the needed data to function
 ```
 
 

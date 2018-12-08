@@ -21,11 +21,11 @@ class DscanServiceProvider extends ServiceProvider
     ], 'views');
 
         $this->publishes([
-        __DIR__ . '/Database/migrations' => $this->app->databasePath() . '/migrations'
+        __DIR__ . '/database/migrations' => $this->app->databasePath() . '/migrations'
     ], 'migrations');
 
         $this->publishes([
-        __DIR__ . '/Database/seeds' => $this->app->databasePath() . '/seeds'
+        __DIR__ . '/database/seeds' => $this->app->databasePath() . '/seeds'
     ], 'seeds');
         
     }
