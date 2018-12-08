@@ -28,7 +28,7 @@
             "Azak1r\\Dscan\\": "src/"
         },
         "files": [
-            "Azak1r\\Dscan\\Tools\\Static_data.php"
+            "src/Http/helpers.php"
         ]
     }
 }

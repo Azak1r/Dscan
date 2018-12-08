@@ -27,6 +27,8 @@ class DscanServiceProvider extends ServiceProvider
         $this->publishes([
         __DIR__ . '/database/seeds' => $this->app->databasePath() . '/seeds'
     ], 'seeds');
+
+        $this->registerHelpers();
         
     }
 
@@ -40,4 +42,13 @@ class DscanServiceProvider extends ServiceProvider
         include __DIR__. '/routes/web.php';
         $this->app->make('Azak1r\Dscan\Http\Controllers\DscanController');
     }
+
+    public function registerHelpers()
+{
+    // Load the helpers in app/Http/helpers.php
+    if (file_exists($file = app_path('Http/helpers.php')))
+    {
+        require $file;
+    }
+}
 }
