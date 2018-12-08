@@ -1,5 +1,5 @@
 # Dscan
-EVE Online D-Scan Parser for sharing to the correct intel channels. This package is made for the Leviathan suite.
+EVE Online D-Scan Parser for sharing to the correct intel channels. This package is made for the Leviathan suite. Based on <a href="https://github.com/shibdib/Shib-D-Scan-Tool">Shib-D-Scan-Tool</a> but updated to the latest game version and moved over to laravel.
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Azak1r/Dscan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Azak1r/Dscan/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/Azak1r/Dscan/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Azak1r/Dscan/build-status/master)
