@@ -1,5 +1,5 @@
 {
-    "name": "Azak1r/Dscan",
+    "name": "azak1r/dscan",
     "description": "A directional scan (Dscan) result sharing tool for EVE Online. This tool is part of the Leviathan Suite",
     "keywords": ["laravel", "Leviathan", "EVE Online", "Dscan"],
     "license": "MIT",
