@@ -15,7 +15,7 @@ class CreateDscansTable extends Migration
     {
         Schema::create('dscans', function (Blueprint $table) {
             $table->string('sid', 45);
-            $table->string('ship_names');
+            $table->longText('ship_names');
             $table->string('ship_types');
             $table->string('ship_classes');
             $table->integer('ship_total');
