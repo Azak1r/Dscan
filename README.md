@@ -9,7 +9,7 @@ EVE Online D-Scan Parser for sharing to the correct intel channels. This package
 
 Start by grabbing the package using composer (Needs to be added to packagist first TBD)
 ```
-composer require Azak1r/Dscan
+composer require azak1r/dscan
 ```
 
 
