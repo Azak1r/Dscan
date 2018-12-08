@@ -22,8 +22,13 @@ run the following commands in order
 php artisan vendor:publish --tag=migrations // This moves the Migration files to the main App
 php artisan vendor:publish --tag=seeds // This moves the Seeder files to the main App
 
-php artisan migrate // This will create the needed tables for the tool
-php artisan db:seed --class=DScanDataSeeder // This will prefil the database tables with the needed data to function
+php artisan migrate 
+```
+
+Follow that up by running the following commands
+```
+composer dump-autoload
+php artisan db:seed --class=DScanDataSeeder 
 ```
 
 
