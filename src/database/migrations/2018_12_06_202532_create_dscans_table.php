@@ -14,7 +14,6 @@ class CreateDscansTable extends Migration
     public function up()
     {
         Schema::create('dscans', function (Blueprint $table) {
-            $table->increments('id');
             $table->string('sid', 45);
             $table->string('ship_names');
             $table->string('ship_types');
